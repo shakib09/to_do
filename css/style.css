@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    display: inline-block;
+    text-decoration: none;  
+}
+body{
+    /* background-image:url(../images/img.jpg) ; */
+    background-color: #3a95c2;
+    font-family: 'Noto Sans', sans-serif;
+}
+#navr{
+    border-radius: 10px;
+    box-shadow: 2px 3px 6px 5px #2f5a70;
+    background-color:#76dede;
+}
+
+#navr form #butt{
+    font-weight: 600;
+    background-color: rgb(255, 255, 255);
+    color: rgba(0, 0, 255, 0.586);
+    border: 0;
+    transition: .4s;
+}
+#navr form #butt:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 255, 0.586);
+}
+#navr form #staticBackdrop{
+    background-color:#000000b1;  
+}
+#navr form #exampleModal{
+    background-color:#000000b1;
+}
+#navr form .modal-header button span{
+    font-size: 40px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+}
+#navr form .modal-content{
+    width: auto;
+    background-color: #3a95c2;
+    box-shadow: 2px 2px 20px 8px;
+}
+#navr form #close{
+    background-color: white;
+    font-weight: 600;
+    color:rgba(0, 0, 255, 0.586) ;
+    border: 0;
+    transition: .4s;
+}
+#navr form #close:hover{
+    color: rgb(255, 255, 255);
+    background-color: red;
+}
+#navr form #sign_ups{
+    background-color: white;
+    font-weight: 600;
+    color:rgba(0, 0, 255, 0.586);
+    border: 0;
+    transition: .4s;
+}
+#navr form #sign_ups:hover{
+    color: rgb(255, 255, 255);
+    background-color: #218838;
+}
+
+.row .col p{
+    text-shadow: 5px 8px 10px #0000005f;
+    color: #000000cf;
+}
+.row .col button{
+    border: 0;
+    background-color: rgb(255, 255, 255);
+    color: rgba(0, 0, 255, 0.586);
+    
+    transition: .4s;
+}
+.row .col button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 255, 0.586);
+}
+#edit_modal textarea{
+    resize: none;
+    height: 150px;
+}
+.modal-body textarea{
+    resize: none;
+    height: 150px;
+}
+#myModal{
+    background-color: #000000b1;
+}
+#myModal .modal-content{
+    background-color: #3a95c2;
+    box-shadow: 2px 2px 20px 8px;
+}
+#myModal .modal-content #new_task{
+    background-color: white;
+    font-weight: 600;
+    color:rgba(0, 0, 255, 0.586) ;
+    border: 0;
+    transition: .4s;
+}
+#myModal .modal-content #new_task:hover{
+    color: rgb(255, 255, 255);
+    background-color: green;
+}
+#myModal .modal-content #close{
+    background-color: white;
+    font-weight: 600;
+    color:rgba(0, 0, 255, 0.586) ;
+    border: 0;
+    transition: .4s;
+}
+#myModal .modal-content #close:hover{
+    color: rgb(255, 255, 255);
+    background-color: red;
+}
+#edit_modal .modal-content{
+    background-color: #3a95c2;
+    box-shadow: 2px 2px 20px 8px;
+}
+#edit_modal .modal-content #save_task{
+    background-color: white;
+    font-weight: 600;
+    color:rgba(0, 0, 255, 0.586) ;
+    border: 0;
+    transition: .4s;
+}
+#edit_modal .modal-content #save_task:hover{
+    color: rgb(255, 255, 255);
+    background-color: green;
+}
+#edit_modal .modal-content #close{
+    background-color: white;
+    font-weight: 600;
+    color:rgba(0, 0, 255, 0.586) ;
+    border: 0;
+    transition: .4s;
+}
+#edit_modal .modal-content #close:hover{
+    color: rgb(255, 255, 255);
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* h2 */
+/* Large devices (desktops, >=1200px) */
+@media (min-width: 1200px) {
+  h2{
+    font-size: 36px;
+  }
+}
+
+/* Medium devices (tablets, >=992px) */
+@media (min-width: 992px) {
+  h2{
+    font-size: 30px;
+  }
+}
+
+/* Small devices (landscape phones, >=576px) */
+@media (min-width: 576px) {
+  h2{
+    font-size: 24px;
+  }
+}
+
+/* Extra small devices (portrait phones, <576px) */
+@media (max-width: 575px) {
+  h2{
+    font-size: 18px;
+  }
+}
+
+/* Extra small devices (portrait phones, <376px) */
+@media (max-width: 375px) {
+  h2{
+    font-size: 12px;
+  }
+}
+
+
+
+/* a */
+
+/* Large devices (desktops, >=1200px) */
+@media (min-width: 1200px) {
+  a{
+    font-size: 36px;
+  }
+}
+
+/* Medium devices (tablets, >=992px) */
+@media (min-width: 992px) {
+  a{
+    font-size: 30px;
+  }
+}
+
+/* Small devices (landscape phones, >=576px) */
+@media (min-width: 576px) {
+  a{
+    font-size: 24px;
+  }
+}
+
+/* Extra small devices (portrait phones, <576px) */
+@media (max-width: 575px) {
+  a{
+    font-size: 18px;
+  }
+}
+
+/* Extra small devices (portrait phones, <376px) */
+@media (max-width: 375px) {
+  a{
+    font-size: 12px;
+  }
+}
+
+
+
+/* button */
+/*Large devices (desktops, >=1200px) */
+@media (min-width: 1200px) {
+  button{
+    font-size: 36px;
+  }
+}
+
+/* Medium devices (tablets, >=992px) */
+@media (min-width: 992px) {
+  button{
+    font-size: 30px;
+  }
+}
+
+/* Small devices (landscape phones, >=576px) */
+@media (min-width: 576px) {
+  button{
+    font-size: 24px;
+  }
+}
+
+/* Extra small devices (portrait phones, <576px) */
+@media (max-width: 575px) {
+  button{
+    font-size: 18px;
+  }
+}
+
+/* Extra small devices (portrait phones, <376px) */
+@media (max-width: 375px) {
+  button{
+    font-size: 12px;
+  }
+} 
+
+
+
+
+
+
+
+
+
+
